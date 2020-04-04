@@ -44,13 +44,13 @@ class Note extends Component {
                     <div className="color-picker" onChange={this.handleColorChange}>
                         <span className="color">Color : </span>
                         <input type="radio" name="color-pick" value="#F06292" id="color1"/>
-                        <label htmlFor="color1" style={{backgroundColor: "#90ee90"}}></label>
+                        <label htmlFor="color1" style={{backgroundColor: "#90ee90"}}/>
                         <input type="radio" name="color-pick" value="#BA68C8" id="color2"/>
-                        <label htmlFor="color2" style={{backgroundColor: "#add8e6"}}></label>
+                        <label htmlFor="color2" style={{backgroundColor: "#add8e6"}}/>
                         <input type="radio" name="color-pick" value="#FFD54F" id="color3"/>
-                        <label htmlFor="color3" style={{backgroundColor: "#ffa500"}}></label>
+                        <label htmlFor="color3" style={{backgroundColor: "#ffa500"}}/>
                         <input type="radio" name="color-pick" value="#4FC3F7" id="color4"/>
-                        <label htmlFor="color4" style={{backgroundColor: "#f08080"}}></label>
+                        <label htmlFor="color4" style={{backgroundColor: "#f08080"}}/>
                     </div>
 
                     <input className="note-button" type="submit" value="Create"/>

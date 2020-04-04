@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 class Nav extends Component {
     render() {
-        const {toggleNote, showNote} = this.props;
+        const {toggleNote, showNote,showSingleNote} = this.props;
 
         return (
             <div className="nav-container">
@@ -13,7 +13,7 @@ class Nav extends Component {
                 <button className="nav-button">
                     Archive
                 </button>
-                <button className="nav-button">
+                <button className="nav-button" onClick={() => showSingleNote()}>
                     Actual
                 </button>
             </div>

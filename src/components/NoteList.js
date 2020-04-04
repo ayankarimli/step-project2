@@ -11,7 +11,7 @@ class List extends Component {
         const cards = notes.map((note, index) => {
             return (
                 <NoteCard
-                    key={index}
+                    key={note.id}
                     index={index}
                     note={note}
                 />
